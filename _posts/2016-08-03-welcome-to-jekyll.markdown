@@ -1,25 +1,22 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-08-03 10:39:34 -0700
-categories: jekyll update
+#layout: post
+title:  "Welcome! This is a post for testing"
+#date:   2016-08-03 10:39:34 -0700
+tags: test
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I am testing how to include an image in a post:
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![A test image](/assets/ScreenShot.png)
 
-Jekyll also offers powerful support for code snippets:
+What I did is creating a directory called `assets` and put the images in it. It seems working! But I am not sure how to adjust the size of the image yet.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+Here I am testing the support for code snippets, which is a simple Python code:
+
+{% highlight python %}
+
+def add(x, y):
+    return x + y
+
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+After the testing, i am going to update a post of what i learned during the CDIPS workshop.

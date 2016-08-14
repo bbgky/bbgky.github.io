@@ -7,7 +7,7 @@
 
 # Site settings
 title: BBGKY
-email: feihepku@gmail.com
+email: feihepku at gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   My Tech blog: Notes of Learning Data Science, Python programming, and Big Data.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -17,3 +17,12 @@ github_username:  bbgky
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      #type: "posts"
+    values:
+      layout: "post"
+      author: BBGKY
