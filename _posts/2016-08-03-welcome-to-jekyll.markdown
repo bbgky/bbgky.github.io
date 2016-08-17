@@ -12,7 +12,7 @@ What I did is creating a directory called `assets` and put the images in it. It 
 
 Here I am testing the support for code snippets, which is a simple Python code:
 
-{% highlight python %}
+{% highlight python linenos %}
 
 def add(x, y):
     return x + y
