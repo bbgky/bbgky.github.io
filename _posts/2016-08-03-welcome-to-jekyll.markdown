@@ -1,7 +1,7 @@
 ---
 #layout: post
 title:  "Welcome! This is a post for testing"
-#date:   2016-08-03 10:39:34 -0700
+date:   2016-08-03 10:39:34 -0700
 tags: test
 ---
 I am testing how to include an image in a post:

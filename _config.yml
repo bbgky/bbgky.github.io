@@ -23,7 +23,11 @@ gems:
 
 jekyll-archives:
       enabled: all
-      layout: archive
+      layouts: archive
+      #  year: year-archive
+      #  month: month-archive
+      #  day: day-archive
+      #  tag: tag-archive-layout
       permalinks:
         year: /:year/
         month: /:year/:month/
