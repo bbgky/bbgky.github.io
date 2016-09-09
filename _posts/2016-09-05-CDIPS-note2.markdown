@@ -1,0 +1,18 @@
+---
+title: "Webpage tags part 2"
+#date:   2016-08-15 10:39:34 -0700
+tags: Machine-Learning
+---
+In the previous post, I listed the tools in bash to do the ETL to webpages. In this post, i will summarize the method using ipython notebook to do the webpage classification by machine-learning.  
+
+The first part of code and results are in my [github][1], and  I put most of the notes and comment in the notebook file, so I may not repeat it here.
+
+[1]: https://github.com/bbgky/website-tags/blob/master/get_feature_table.ipynb
+
+In this part, the machine-learning algorithm has not been applied. It is a process to transform the text file into a format that can be used for machine-learning. The important packages used here are `pandas`, `numpy`, `TfidfVectorizer from sklearn.feature_extraction.text` and `nltk.corpus`.
+
+`pandas.drop` and `pandas.join` is frequently used to modify the dataframe. `numpy.unique` and `numpy.argsort`is frequently used to get the statistics and plotting.
+
+`matplotlib.pyplot` is widely used for plotting. and `matplotlib.cm` is used for plotting color. `matshow` is used for plotting the correlation matrix. In this code,   color *YlGn* is used for the correlation figure. More other options can be found in the [matplotlib][2].
+
+[2]: http://matplotlib.org/examples/color/colormaps_reference.html
