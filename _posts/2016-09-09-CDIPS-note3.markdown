@@ -1,0 +1,15 @@
+---
+title: "Webpage tags part 3"
+#date:   2016-08-15 10:39:34 -0700
+tags: Machine-Learning
+---
+In the previous post, the content of the webpage is further processed to *bag of words* format, which is able for machine-learning. The algorithm chosen for the *bag of words* with labels is `RandomForestClassifier`from `sklearn.ensemble`. The code and the results are in my [github][1].
+
+[1]: https://github.com/bbgky/website-tags/blob/master/SupervisedLearning_RandomForest.ipynb
+
+Use `LabelEncoder` from `sklearn.preprocessing` to transform labels into integers. Use `cross_val_score` from `sklearn.cross_validation` to evaluate the forest. `f1_score` from `sklearn.metrics` evaluate the accuracy of each class.
+
+To visualize the data, `TSNE` is used to reduce data dimension.
+The color used for multiple classes is `seaborn.color_palette("hls",12)`. Details of how to use `color_palette` can be found in `seaborn`'s [document][2].
+
+[2]: https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.color_palette.html
