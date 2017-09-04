@@ -4,9 +4,11 @@ title: About
 permalink: /about/
 ---
 
-### Academic Records
+### Academic & Industrial Records
 
-* Current Position: Postdoc researcher at UC Berkeley, USA
+* Current Position: Data Scientist at trivago.com, Amsterdam, the Netherlands
+
+* Position in the past: Postdoc Scientist at University of California Berkeley, USA
 
 * PhD in Physics: Leiden University, the Netherlands
 
@@ -17,10 +19,8 @@ permalink: /about/
 * Programming skills: Python, Bash, Labview
 
 
-### Industrial Records
+### Other Info
 
-* Not yet
 
-* Add me on [linkedin][1] if you have better job opportunities for me.
-
+* Add me on [linkedin][1] if you want to know more about me
   [1]: https://www.linkedin.com/in/he-meng-455aa828
